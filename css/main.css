@@ -1,0 +1,58 @@
+body {
+    background: url("/images/background.png") no-repeat center center fixed;
+    background-size: cover;
+
+    color: white;
+    background-color: #a07a21;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+header img {
+    width: 40%;
+}
+
+main img {
+    width: 100%;
+}
+
+
+footer {
+    text-align: center;
+}
+
+footer img{
+    width: 5%;
+}
+
+.row {
+    padding: 0.5rem;
+    display: flex;
+}
+
+.col4 {
+    width: 25%;
+    padding: 0.2rem;
+    text-align: justify;
+}
+
+.col4 h3 {
+    letter-spacing: 0.4rem;
+}
+
+.col4 p, .col4 h3 {
+    padding: 0 1.5rem;
+    font-size: 1cqw;
+}
+
+.rounded_left {
+    border-radius: 20% 0 0 20%;
+}
+
+
+.rounded_right {
+    border-radius: 0 20% 20% 0;
+}

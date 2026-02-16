@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+
+    background-color: black;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    /*color: gold;*/
+    color: #9e8545;
+    text-align: center;
+    width: 10rem;
+    padding: 1rem;
+}
+
+nav a:hover {
+    background: url("/images/hover.png") center center;
+    background-size: cover;
+}
