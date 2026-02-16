@@ -309,13 +309,13 @@ NOTE: The background color needs to appear AFTER the background image, otherwise
 
 1. since we're using an unordered list for our navigation, we need to remove the bullet points (`list-style-type`). We'll also add an `auto` horizonal margin, so flex (list item blocks) content is centered:
 
-```html
-nav ul {
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 1rem;
-}
-```
+   ```html
+   nav ul {
+       list-style-type: none;
+       margin: 0 auto;
+       padding: 1rem;
+   }
+   ```
 
 1. we'll allow our list items to behave as inline elements:
    
